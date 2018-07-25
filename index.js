@@ -1,6 +1,6 @@
 $(document).ready(()=>{
 let imdb_id,title,year;
-let url = 'http://www.omdbapi.com/?apikey=9c5c424d&';
+let url = 'https://www.omdbapi.com/?apikey=9c5c424d&';
 let serializeData;
 $('#search').click(function(){
     serializeData =  $(" :input[value]").serializeArray();
@@ -20,7 +20,7 @@ $('#search').click(function(){
      url = url.substring(0, url.length - 1);
      console.log("the new url is", url);
      getData(url);
-     url =  'http://www.omdbapi.com/?apikey=9c5c424d&';
+     url =  'https://www.omdbapi.com/?apikey=9c5c424d&';
      
 });
 
@@ -47,7 +47,7 @@ $('#search').click(function(){
 //          getData(url);
 // })
 $('#changeVal').click(function(){
-	url='http://www.omdbapi.com/?apikey=9c5c424d&';
+	url='https://www.omdbapi.com/?apikey=9c5c424d&';
 	console.log("url is",url);	
 })
 });
