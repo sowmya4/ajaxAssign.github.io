@@ -1,0 +1,69 @@
+:root{
+  font-size:16px;
+  font-family: "Times New Roman";
+}
+#myimg{
+   width:50vh;
+   height:50vh;
+
+}
+.setWidth{
+  min-width:100%;
+}
+a:link{
+  color: black;
+  text-decoration: underline;
+}
+ .head,.foot{
+  color:  #4B0082;
+ }
+ .rating{
+   text-align: center;
+   
+ }
+ @media screen and (max-width: 480px) {
+   .head{
+    font-size:0.8rem;
+    padding-left: 0px;
+   }
+}
+@media screen and (max-width:588px){
+.myinput{
+    height:50px;
+}
+h4{
+       font-size:1rem !important;
+}
+}
+
+@media screen and (max-width:360px){
+
+.press{
+    flex-direction: column;
+   align-items: center; 
+}
+}
+@media screen and (max-width:1000px){
+
+.head{
+  display:flex;
+  flex-direction: column;
+  align-self: center;
+}
+.foot{
+  font-size: 0.8rem;
+}
+}
+
+@media screen and (max-width:450px){
+ .cont{
+  font-size: 0.5rem;
+ }
+/* @media screen and (min-width:1000px){
+ .imdb{
+  
+ }
+
+}*/
+
+}
